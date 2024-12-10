@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Infos - Cooper Network</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="logo.png" alt="Cooper Network Logo" class="logo">
+            <h1 class="network-name">Cooper Network</h1>
+        </div>
+        <nav class="menu">
+            <ul class="menu-list">
+                <li><a href="index.html" class="menu-link">Home</a></li>
+                <li><a href="servers.html" class="menu-link">Servers</a></li>
+                <li><a href="about.html" class="menu-link">About</a></li>
+                <li><a href="contact.html" class="menu-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="intro">
+            <h2>Our Servers</h2>
+            <p>
+                Discover the backbone of the Cooper Network! Below are our primary servers,  
+                providing unique services to ensure smooth operation and gaming fun.
+            </p>
+        </section>
+
+        <section class="server-list">
+            <div class="server" data-domain="independent-extract.joinmc.link" data-status="maintenance">
+                <h3>Minecraft Server</h3>
+                <p>Our flagship Minecraft server for endless adventures.</p>
+                <p>Status: <span class="server-status">Checking...</span></p>
+            </div>
+
+            <div class="server" data-domain="https://jubilant-trout-wr9vqq6qr55wcgq65.github.dev/" data-status="auto">
+                <h3>Dienstserver</h3>
+                <p>The heart of our network, ensuring reliable backend services.</p>
+                <p>Status: <span class="server-status">Checking...</span></p>
+            </div>
+
+            <div class="server" data-domain="https://jubilant-trout-wr9vqq6qr55wcgq65-8080.app.github.dev/" data-status="auto">
+                <h3>Pingserver</h3>
+                <p>Dedicated to monitoring latency and network health.</p>
+                <p>Status: <span class="server-status">Under Maintenance</span></p>
+            </div>
+
+            <div class="server" data-domain="https://jubilant-trout-wr9vqq6qr55wcgq65-8000.app.github.dev/" data-status="auto">
+                <h3>Mailserver</h3>
+                <p>Handles all network communication and notifications.</p>
+                <p>Status: <span class="server-status">Checking...</span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Cooper Network. All Rights Reserved.</p>
+    </footer>
+
+    <script src="servers.js"></script>
+</body>
+</html>
