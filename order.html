@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Status - Cooper Network</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="logo.png" alt="Cooper Network Logo" class="logo">
+            <h1 class="network-name">Cooper Network</h1>
+        </div>
+        <nav class="menu">
+            <ul class="menu-list">
+                <li><a href="index.html" class="menu-link">Home</a></li>
+                <li><a href="servers.html" class="menu-link">Servers</a></li>
+                <li><a href="about.html" class="menu-link">About</a></li>
+                <li><a href="contact.html" class="menu-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="service-status">
+            <h2>Order Status</h2>
+
+            <!-- ID Input Dialog -->
+            <div id="id-input-dialog">
+                <p>Please enter your Order ID to check the status:</p>
+                <input type="text" id="service-id-input" placeholder="Order ID">
+                <button id="submit-id-button">Check Order</button>
+                <p id="id-error-message" style="color: red; display: none;">Invalid ID. Please try again. You find your ID in our Discord!</p>
+            </div>
+
+            <!-- Status Information -->
+            <div id="status-content" style="display: none;">
+                <p id="status-message"></p>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                    <div class="progress-goals" id="progress-goals"></div>
+                </div>
+                <p id="service-description"></p>
+            </div>
+            <div id="personal-message" class="personal-message-box hidden"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Cooper Network. All Rights Reserved.</p>
+    </footer>
+
+    <script src="service-status.js"></script>
+</body>
+</html>
