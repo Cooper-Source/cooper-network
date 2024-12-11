@@ -2,7 +2,7 @@
 const services = {
     "101220241650": {
         name: "Minecraft Server Hosting",
-        progress: 15,
+        progress: 20,
         goals: ["Order Received", "Setup in Progress", "Configuration Done", "Live"],
         description: "Your Minecraft server is being configured. We are almost there! Please consider to answer our questions to your Server at the Discord! | It's important that you react to our requests. That's why it could need more time.",
         personalmessage: "It's important that you react to our requests. That's why it could need more time.",
@@ -12,12 +12,12 @@ const services = {
     },
     "101220241651": {
         name: "Server Network Setup",
-        progress: 2,
+        progress: 35,
         goals: ["Preparing", "Setting up", "Configurating", "Starting"],
-        description: "It will be finished at January `25",
+        description: "It will be finished until January `25",
         status: "Paused", // New field for service status
         personalMessage: "We will notify you once setup finished.",
-        additionalInfo: "Setting up network infrastructure for our servers."
+        additionalInfo: "Setting up network infrastructure for our servers.\n\nUpdate from 11.12.2024\nMain Issue fixed. Could be finished until the 19.12"
     }
     
 };
