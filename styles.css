@@ -124,10 +124,31 @@ body {
     margin-bottom: 10px;
 }
 
-.server-status {
-    font-weight: bold;
-    color: #ffcc00;
+.service-status {
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 14px;
 }
+
+.service-status strong {
+    font-weight: bold; /* Fett anzeigen */
+    font-size: 1.5em;  /* Größerer Text */
+}
+
+.service-status .active {
+    color: #4CAF50; /* Grün für Active */
+}
+
+.service-status .paused {
+    color: #FF9800; /* Orange für Paused */
+}
+
+.service-status .completed {
+    color: #00BCD4; /* Türkis-Grün für Completed */
+}
+
 
 /* About Section */
 .intro {
@@ -332,4 +353,58 @@ body {
 }
 .hidden {
     display: none;
+}
+
+#personal-message, #service-info {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;  /* Falls vorhanden, entfernt den Rand */
+    background: transparent;  /* Falls das Element eine Hintergrundfarbe hat */
+}
+
+/* Card for Additional Info */
+/* Card for Additional Info */
+/* Card for Additional Info */
+.info-card {
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    display: block; /* Initial default to block */
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Shadow for card effect */
+    border: 2px solid #00ffcc; /* Green border, change color as needed */
+}
+
+.info-card p {
+    margin: 0;
+}
+
+
+
+/* Styling for the personal message box */
+.personal-message-box {
+    background-color: #444;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 20px;
+}
+
+.personal-message-box.hidden {
+    display: none;
+}
+
+/* For progress bar and status */
+#progress-container {
+    margin-top: 20px;
+}
+
+#progress {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0; /* dynamic progress width */
 }
