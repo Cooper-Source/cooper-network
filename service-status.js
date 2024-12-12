@@ -6,13 +6,13 @@ const services = {
         goals: ["Order Received", "Setup in Progress", "Configuration Done", "Live"],
         description: "Your Minecraft server is being configured. We are almost there! Please consider to answer our questions to your Server at the Discord! | It's important that you react to our requests. That's why it could need more time.",
         personalmessage: "It's important that you react to our requests. That's why it could need more time.",
-        status: "Active", // New field for service status
+        status: "Stopped", // New field for service status
         personalMessage: "If you have questions, feel free to contact support.",
-        additionalInfo: "Planed Configuration: \n- 4gbyte RAM\n- Optimized for 20 Player\n- with Paper/Bukkit-Plugins\n\n--> NOTE <--\nInformation needed! Please contact Support!",
+        additionalInfo: "Will be deleted at the next time",
     },
     "101220241651": {
         name: "Server Network Setup",
-        progress: 35,
+        progress: 45,
         goals: ["Preparing", "Setting up", "Configurating", "Starting"],
         description: "It will be finished until January `25",
         status: "Paused", // New field for service status
